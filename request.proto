@@ -327,6 +327,7 @@ message Request {
     optional PtFaresRequest pt_fares                     = 30;
     optional string language                             = 31;
     optional PoiDisruptionRequest poi_disruptions        = 32;
+    optional ParkMode park_mode                          = 33;
 }
 
 message NearestStopPointsRequest {
